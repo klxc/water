@@ -1,0 +1,29 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color:white;
+}
+
+div#menu {
+    margin: 0 auto;
+    width: 100%;
+    height: 4em;
+}
+
+div#titles {
+    background-color: red;
+}
+h4 {
+    color: black;
+    font-size: 4px;
+}
+h3{
+    color:aqua;
+}
+
+
