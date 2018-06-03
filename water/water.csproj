@@ -196,6 +196,7 @@
     <Content Include="register.aspx" />
     <Content Include="server.aspx" />
     <Content Include="water.aspx" />
+    <Content Include="report.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -300,6 +301,13 @@
     </Compile>
     <Compile Include="water.aspx.designer.cs">
       <DependentUpon>water.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="report.aspx.cs">
+      <DependentUpon>report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="report.aspx.designer.cs">
+      <DependentUpon>report.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

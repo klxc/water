@@ -23,6 +23,5 @@
     </form>
     <h3>沒有帳號嗎?註冊一個吧!</h3>
     <a href="register.aspx">註冊</a>
-    <asp:Label ID="Label1" runat="server" Text="我就是不做頁面設計" Font-Size="XX-Large" ForeColor="Red"></asp:Label>
 </body>
 </html>
