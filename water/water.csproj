@@ -194,9 +194,11 @@
     <Content Include="member.aspx" />
     <Content Include="newm.aspx" />
     <Content Include="register.aspx" />
+    <Content Include="report.aspx" />
     <Content Include="server.aspx" />
     <Content Include="water.aspx" />
-    <Content Include="report.aspx" />
+    <Content Include="collection.aspx" />
+    <Content Include="WebForm3.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -281,6 +283,13 @@
     <Compile Include="register.aspx.designer.cs">
       <DependentUpon>register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="report.aspx.cs">
+      <DependentUpon>report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="report.aspx.designer.cs">
+      <DependentUpon>report.aspx</DependentUpon>
+    </Compile>
     <Compile Include="server.aspx.cs">
       <DependentUpon>server.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -302,12 +311,19 @@
     <Compile Include="water.aspx.designer.cs">
       <DependentUpon>water.aspx</DependentUpon>
     </Compile>
-    <Compile Include="report.aspx.cs">
-      <DependentUpon>report.aspx</DependentUpon>
+    <Compile Include="collection.aspx.cs">
+      <DependentUpon>collection.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="report.aspx.designer.cs">
-      <DependentUpon>report.aspx</DependentUpon>
+    <Compile Include="collection.aspx.designer.cs">
+      <DependentUpon>collection.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm3.aspx.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm3.aspx.designer.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

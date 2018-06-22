@@ -23,7 +23,11 @@ namespace water
         }
         protected void Button6_Click(object sender, EventArgs e)
         {
-            Response.Redirect("report.aspx");
+            Response.Redirect("collection.aspx");
+        }
+        protected void Button7_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Webform2.aspx");
         }
     }
 }

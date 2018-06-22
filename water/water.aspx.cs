@@ -4,8 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Data.SqlClient;
+
+//----自己寫的（宣告）----
 using System.Web.Configuration;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace water
 {
@@ -17,6 +20,9 @@ namespace water
         }
         protected void Button1_Click(object sender, EventArgs e)
         {
+            if ( check(username.Text, passward.Text) != 0) {
+                Response.End();
+            }
             SqlConnection conn = new SqlConnection(WebConfigurationManager.ConnectionStrings["MSSQL_DBconnect"].ConnectionString);
             conn.Open();//開啟資料庫的連結
             SqlDataReader dr;

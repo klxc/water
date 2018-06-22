@@ -6,6 +6,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data.SqlClient;
+using System.Web.Configuration;
 
 namespace water
 {
@@ -17,24 +19,33 @@ namespace water
         }
         protected void InterviewDateBtn_Click(object sender, EventArgs e)
         {
-            InterviewCalendar.Visible = false;
+            InterviewCalendar.Visible = true;
+            
         }
         protected void InterviewCalendar_SelectionChanged(object sender, EventArgs e)
         {
             InterviewDate.Text = InterviewCalendar.SelectedDate.Date.Year.ToString();
             InterviewDate.Text +="-"+ InterviewCalendar.SelectedDate.Date.Month.ToString();
             InterviewDate.Text += "-" + InterviewCalendar.SelectedDate.Date.Day.ToString();
-            InterviewCalendar.Visible = false;
+            
         }
         protected void Button1_Click(object sender, EventArgs e)
         {
             SqlDataSource4.Insert();
-            Response.Write("回報成功");
+            Response.Write("thanks");
         }
         protected void Button2_Click(object sender, EventArgs e)
         {
            
-            Response.Redirect("water.aspx");
+            Response.Redirect("member.aspx");
         }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            InterviewCalendar.Visible = true;
+        }
+
+ 
+        
     }
 }

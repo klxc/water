@@ -64,7 +64,7 @@ namespace water {
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label InterviewDate;
+        protected global::System.Web.UI.WebControls.TextBox InterviewDate;
         
         /// <summary>
         /// InterviewDateBtn 控制項。
@@ -74,6 +74,15 @@ namespace water {
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button InterviewDateBtn;
+        
+        /// <summary>
+        /// Button3 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button3;
         
         /// <summary>
         /// InterviewCalendar 控制項。
