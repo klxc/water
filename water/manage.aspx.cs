@@ -28,5 +28,10 @@ namespace water
         {
             Response.Redirect("server3.aspx");
         }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("water.aspx");
+        }
     }
 }

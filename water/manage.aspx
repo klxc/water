@@ -15,6 +15,9 @@
         <asp:Button ID="Button1" runat="server" Text="資料管理" OnClick="Button1_Click" />
         <asp:Button ID="Button2" runat="server" Text="會員管理" OnClick="Button2_Click" />
         <asp:Button ID="Button3" runat="server" Text="討論區" OnClick="Button3_Click" />
+        <p>
+            <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="登出" />
+        </p>
     </form>
 </body>
 </html>
