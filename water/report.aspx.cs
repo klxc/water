@@ -33,6 +33,7 @@ namespace water
         {
             SqlDataSource4.Insert();
             Response.Write("thanks");
+            Button1.Visible = false;
         }
         protected void Button2_Click(object sender, EventArgs e)
         {

@@ -80,7 +80,7 @@
             <asp:Button ID="Button1" runat="server" Text="送出" OnClick="Button1_Click" />
         </p>
         <p>
-            <asp:Button ID="Button2" runat="server"  Text="離開" OnClick="Button2_Click"/>
+            <asp:Button ID="Button2" runat="server"  Text="回功能表" OnClick="Button2_Click"/>
         </p>
         <p>
             <asp:SqlDataSource ID="SqlDataSource4" runat="server" ConnectionString="<%$ ConnectionStrings:DB1_28ConnectionString %>" DeleteCommand="DELETE FROM [rivers] WHERE [id] = @id" InsertCommand="INSERT INTO [rivers] ([name], [city], [date], [level]) VALUES (@name, @city, @date, @level)" SelectCommand="SELECT * FROM [rivers]" UpdateCommand="UPDATE [rivers] SET [name] = @name, [city] = @city, [date] = @date, [level] = @level WHERE [id] = @id">

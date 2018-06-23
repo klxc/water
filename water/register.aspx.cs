@@ -21,7 +21,7 @@ namespace water
             SqlConnection conn = new SqlConnection(WebConfigurationManager.ConnectionStrings["MSSQL_DBconnect"].ConnectionString);
             conn.Open();//開啟資料庫的連結
             SqlDataReader ddr;
-            SqlCommand sqlr = new SqlCommand("Insert Into ACCOUNT" + "(USERNAME,PASSWARD,MANAGEMENT,ID)" + "values('" + rname.Text + "','" + rpassward.Text + "','0','7')",conn);
+            SqlCommand sqlr = new SqlCommand("Insert Into ACCOUNT" + "(USERNAME,PASSWARD,rank)" + "values('" + rname.Text + "','" + rpassward.Text + "','0')",conn);
             ddr = sqlr.ExecuteReader();
             Response.Redirect("newm.aspx");
             sqlr.Cancel();

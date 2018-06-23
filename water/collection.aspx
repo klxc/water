@@ -10,7 +10,7 @@
 <body>
    <form id="form1" runat="server">
     <div class="navbar navbar-inverse"></div>
-        <a href="member.aspx">回功能頁</a><br/>
+        <a href="member.aspx">回功能表</a><br/>
         <div class="container">
             <div class="row">
                 <div class="col-md-offset-2 col-md-8 ">

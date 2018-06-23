@@ -21,6 +21,9 @@
                 <asp:Button ID="Button7" runat="server" OnClick="Button7_Click" Text="秘密武器" />
             </p>
              <asp:Button runat="server" ID="Button4" Text="回到首頁" OnClick="Button4_Click" />
+            <br />
+            <br />
+            <asp:Button ID="Button8" runat="server" OnClick="button8_Click" Text="修改密碼" />
         </div>
     </form>
     <p>
