@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="collection.aspx.cs" Inherits="water.WebForm2" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="server1.aspx.cs" Inherits="water.server1" %>
 
 <!DOCTYPE html>
 
@@ -8,7 +8,7 @@
     <title></title>
 </head>
 <body>
-   <form id="form1" runat="server">
+  <form id="form1" runat="server">
     <div class="navbar navbar-inverse"></div>
         <div class="container">
             <div class="row">

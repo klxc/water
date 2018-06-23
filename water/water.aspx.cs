@@ -62,7 +62,7 @@ namespace water
                         dr.Close();
                         Conn.Close();
                         Conn.Dispose();
-                        Response.Redirect("server.aspx");
+                        Response.Redirect("manage.aspx");
                     }
                     else
                     {

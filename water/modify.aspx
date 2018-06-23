@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm3.aspx.cs" Inherits="water.WebForm3" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="modify.aspx.cs" Inherits="water.WebForm3" %>
 
 <!DOCTYPE html>
 
@@ -40,7 +40,7 @@
                 </tr>
                 <tr>
                     <td class="auto-style4">
-            <asp:Button runat="server" ID="Button1" Text="修改" OnClick="Button1_Click" BackColor="#F800F8" />
+            <asp:Button runat="server" ID="Button1" Text="修改" OnClick="Button1_Click" BackColor="White" />
                     </td>
                     <td>
                         &nbsp;</td>

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="server.aspx.cs" Inherits="water.server" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="server2.aspx.cs" Inherits="water.server" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -25,6 +25,7 @@
         </asp:SqlDataSource>
         <div>
              <asp:Button runat="server" ID="Button6" Text="登出" OnClick="Button6_Click" />
+             <asp:Button ID="Button7" runat="server" OnClick="Button7_Click" Text="回功能表" />
         </div>
     </form>
 </body>

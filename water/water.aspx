@@ -18,7 +18,7 @@
         <asp:TextBox runat="server" ID="passward" TextMode="Password" />
          </div>
         <div>
-            <asp:Button runat="server" ID="Button1" Text="登入" OnClick="Button1_Click" BackColor="#F800F8" />
+            <asp:Button runat="server" ID="Button1" Text="登入" OnClick="Button1_Click" BackColor="White" />
         </div>
     </form>
     <h3>沒有帳號嗎?註冊一個吧!</h3>

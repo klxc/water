@@ -18,6 +18,11 @@ div#menu {
 div#titles {
     background-color: red;
 }
+h1 {
+color:red;
+font-size:8px;
+
+}
 h4 {
     color: black;
     font-size: 4px;
