@@ -17,7 +17,7 @@
         </div>
          <div>
         請輸入密碼:
-        <asp:TextBox runat="server" ID="rpassward" />
+        <asp:TextBox runat="server" ID="rpassward" TextMode="Password" />
          </div>
         <div>
             <asp:Button runat="server" ID="Button2" Text="送出" OnClick="Button2_Click" />

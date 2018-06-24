@@ -191,14 +191,19 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="index.css" />
+    <Content Include="manage.aspx" />
     <Content Include="member.aspx" />
+    <Content Include="Message.aspx" />
     <Content Include="newm.aspx" />
     <Content Include="register.aspx" />
     <Content Include="report.aspx" />
-    <Content Include="server.aspx" />
+    <Content Include="secret.aspx" />
+    <Content Include="server1.aspx" />
+    <Content Include="server2.aspx" />
+    <Content Include="server3.aspx" />
     <Content Include="water.aspx" />
     <Content Include="collection.aspx" />
-    <Content Include="WebForm3.aspx" />
+    <Content Include="modify.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -261,12 +266,26 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="manage.aspx.cs">
+      <DependentUpon>manage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="manage.aspx.designer.cs">
+      <DependentUpon>manage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="member.aspx.cs">
       <DependentUpon>member.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="member.aspx.designer.cs">
       <DependentUpon>member.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Message.aspx.cs">
+      <DependentUpon>Message.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Message.aspx.designer.cs">
+      <DependentUpon>Message.aspx</DependentUpon>
     </Compile>
     <Compile Include="newm.aspx.cs">
       <DependentUpon>newm.aspx</DependentUpon>
@@ -290,12 +309,33 @@
     <Compile Include="report.aspx.designer.cs">
       <DependentUpon>report.aspx</DependentUpon>
     </Compile>
-    <Compile Include="server.aspx.cs">
-      <DependentUpon>server.aspx</DependentUpon>
+    <Compile Include="secret.aspx.cs">
+      <DependentUpon>secret.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="server.aspx.designer.cs">
-      <DependentUpon>server.aspx</DependentUpon>
+    <Compile Include="secret.aspx.designer.cs">
+      <DependentUpon>secret.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="server1.aspx.cs">
+      <DependentUpon>server1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="server1.aspx.designer.cs">
+      <DependentUpon>server1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="server2.aspx.cs">
+      <DependentUpon>server2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="server2.aspx.designer.cs">
+      <DependentUpon>server2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="server3.aspx.cs">
+      <DependentUpon>server3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="server3.aspx.designer.cs">
+      <DependentUpon>server3.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -318,12 +358,12 @@
     <Compile Include="collection.aspx.designer.cs">
       <DependentUpon>collection.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm3.aspx.cs">
-      <DependentUpon>WebForm3.aspx</DependentUpon>
+    <Compile Include="modify.aspx.cs">
+      <DependentUpon>modify.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm3.aspx.designer.cs">
-      <DependentUpon>WebForm3.aspx</DependentUpon>
+    <Compile Include="modify.aspx.designer.cs">
+      <DependentUpon>modify.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
