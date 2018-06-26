@@ -84,6 +84,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DataVisualization" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
@@ -199,6 +200,7 @@
     <Content Include="water.aspx" />
     <Content Include="collection.aspx" />
     <Content Include="WebForm3.aspx" />
+    <Content Include="secret.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -324,6 +326,13 @@
     </Compile>
     <Compile Include="WebForm3.aspx.designer.cs">
       <DependentUpon>WebForm3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secret.aspx.cs">
+      <DependentUpon>secret.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secret.aspx.designer.cs">
+      <DependentUpon>secret.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
